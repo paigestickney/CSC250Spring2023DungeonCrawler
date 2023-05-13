@@ -156,6 +156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f07b08c924843379db23eb4231a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  northExit: {fileID: 545364869}
+  southExit: {fileID: 629801180}
+  eastExit: {fileID: 473322284}
+  westExit: {fileID: 1526194815}
 --- !u!54 &96949519
 Rigidbody:
   m_ObjectHideFlags: 0
