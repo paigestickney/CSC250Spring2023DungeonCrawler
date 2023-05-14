@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
     public GameObject northExit, southExit, eastExit, westExit;
+    public GameObject westStart;
     public float movementSpeed = 40.0f;
     private bool isMoving;
 
@@ -14,8 +15,11 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (MasterData.whereDidIComeFrom.Equals("?"))
+        {
+
+        }
         this.rb = this.GetComponent<Rigidbody>();
-        MasterData md = new MasterData();
         this.isMoving = false;
     }
 
